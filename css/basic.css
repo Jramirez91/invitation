@@ -2,7 +2,7 @@
 
 body{
 	overflow:hidden;
-	background-color:#d8d8d8;
+	background-color:#F7F1F1ff;
 	margin:0;
 	padding:0;
 }
@@ -21,10 +21,10 @@ body{
 }
 
 .flipbook-viewport .flipbook{
-	width:922px;
-	height:600px;
-	left:-461px;
-	top:-300px;
+	width:1200px;
+	height:800px;
+	left:-600px;
+	top:-400px;
 }
 
 .flipbook-viewport .page{
