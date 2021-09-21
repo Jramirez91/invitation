@@ -22,10 +22,14 @@
 	</div>
 </div>
 
-<img class="img-swipe" src="./pics/swipe.gif" alt="swipe">
+<div class=""> 
+	<h4 class="tx-swipe">Desliza</h4>
+	<img  class="img-swipe" src="./pics/swipe.gif" alt="swipe"></div>
 
 
 <script type="text/javascript">
+
+setTimeout(function(){ document.querySelector('.img-swipe').remove(); document.querySelector('.tx-swipe').remove(); }, 10000);
 
 function loadApp() {
 
